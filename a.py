@@ -5,7 +5,7 @@ while True:
     tentativa = ""
     tentativas_restantes = 3
     
-
+#EDITA EDITA
     while tentativa != numero and tentativas_restantes > 0:
         tentativa = int(input("digite um numero aleatorio: "))
         
@@ -21,4 +21,5 @@ while True:
     resposta = input("vamo novamente? (s/n): ")
     if resposta.lower() != "s":
         print("Encerrando o programa...")
+
         break
