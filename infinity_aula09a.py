@@ -1,7 +1,9 @@
-#  python -m venv venv
-#  venv/scripts/activate
-#  pip install flet
-#  python main.py
+#TERMINAL    
+#  python -m venv venv  ----> cria o ambiente virtual
+#  venv/scripts/activate ----> ativa o ambiente virtual
+#  pip install flet ----> instala a biblioteca "flet"
+#  abrir o flet.dev e copiar o primeiro código apresentado na página "docs"
+#  colar o código no editor de código-fonte(em meu caso, VS CODE) ---->
 import flet as ft
 
 def main(page: ft.Page):
@@ -30,3 +32,5 @@ def main(page: ft.Page):
     )
 
 ft.app(main)
+#  Terminal
+#  python nome_do_documento ----> Roda o programa em Python
